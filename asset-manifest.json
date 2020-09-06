@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/April-fool-day/static/css/main.fd5293e0.chunk.css",
+    "main.js": "/April-fool-day/static/js/main.4937aeaa.chunk.js",
+    "main.js.map": "/April-fool-day/static/js/main.4937aeaa.chunk.js.map",
+    "runtime-main.js": "/April-fool-day/static/js/runtime-main.48305954.js",
+    "runtime-main.js.map": "/April-fool-day/static/js/runtime-main.48305954.js.map",
+    "static/js/2.532ebd7d.chunk.js": "/April-fool-day/static/js/2.532ebd7d.chunk.js",
+    "static/js/2.532ebd7d.chunk.js.map": "/April-fool-day/static/js/2.532ebd7d.chunk.js.map",
+    "index.html": "/April-fool-day/index.html",
+    "precache-manifest.815b80f8f42b17b8ee7328aaad8865f5.js": "/April-fool-day/precache-manifest.815b80f8f42b17b8ee7328aaad8865f5.js",
+    "service-worker.js": "/April-fool-day/service-worker.js",
+    "static/css/main.fd5293e0.chunk.css.map": "/April-fool-day/static/css/main.fd5293e0.chunk.css.map",
+    "static/js/2.532ebd7d.chunk.js.LICENSE.txt": "/April-fool-day/static/js/2.532ebd7d.chunk.js.LICENSE.txt",
+    "static/media/Main.scss": "/April-fool-day/static/media/asfalt.e5c28fa0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.48305954.js",
+    "static/js/2.532ebd7d.chunk.js",
+    "static/css/main.fd5293e0.chunk.css",
+    "static/js/main.4937aeaa.chunk.js"
+  ]
+}
