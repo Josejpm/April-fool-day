@@ -1,0 +1,52 @@
+@import '../../../scss/variables';
+
+.sidebar-container{
+    padding: 40px 30px 65px 30px;
+    background-color: rgb(41, 41, 41);
+    flex: 0 0 500px;
+    
+   
+    .sidebar-title{
+        font-size: 30px;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .users-list{
+        padding-left: 0px;
+        height: 93%;
+        overflow-y: scroll;
+    }
+
+    li{
+        list-style: none;
+        margin-top: 10px;
+        font-size: 18px;
+
+        i{
+            margin-right: 10px;
+        }
+        
+        .Purple{
+            color:$purple;
+        }
+        .Blue{
+            color:$blue;
+        }
+        .Green{
+            color:$green;
+        }
+        .Yellow{
+            color:$yellow;
+        }
+        .Orange{
+            color:$orange;
+        }
+        .Red{
+            color:$red;
+        }
+        .Gray{
+            color:$gray
+        }
+    }
+}

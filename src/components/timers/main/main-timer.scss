@@ -1,0 +1,121 @@
+@import '../../../scss/variables';
+.timer-numbers{
+    margin: 0 auto;
+    margin-top: 180px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 150px;
+    background-color: rgb(41, 41, 41);
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.enabled-button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    background:#1AAB8A;
+    color:rgb(41, 41, 41);
+    border:none;
+    position:relative;
+    width: 500px;
+    height:60px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:300ms ease all;
+    outline:none;
+    &:hover{
+        background:rgb(41, 41, 41);
+        color:#1AAB8A;
+      }
+
+    &:before{
+        content:'';
+        position:absolute;
+        top:0;
+        right:0;
+        height:2px;
+        width:0;
+        background: #1AAB8A;
+        transition:300ms ease all;
+    }
+
+    &:after{
+        content:'';
+        position:absolute;
+        height:2px;
+        width:0;
+        background: #1AAB8A;
+        transition:400ms ease all;
+        left:0;
+        bottom:0;
+    }
+
+    &:hover:before,&hover:after{
+        width:100%;
+        transition:800ms ease all;
+    }
+
+  }
+
+  .disabled-button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    background:rgb(41, 41, 41);
+    color: #1AAB8A;
+    border:none;
+    position:relative;
+    width: 500px;
+    height:60px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:300ms ease all;
+    outline:none;
+
+  }
+
+  .disabled-button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #1AAB8A;
+}
+
+.color-message{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+
+    i{
+        margin-right: 15px; 
+    }
+    .Purple{
+        color:$purple;
+    }
+    .Blue{
+        color:$blue;
+    }
+    .Green{
+        color:$green;
+    }
+    .Yellow{
+        color:$yellow;
+    }
+    .Orange{
+        color:$orange;
+    }
+    .Red{
+        color:$red;
+    }
+    .Gray{
+        color:$gray
+    } 
+}

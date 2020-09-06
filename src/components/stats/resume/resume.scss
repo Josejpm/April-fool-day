@@ -1,0 +1,44 @@
+@import '../../../scss/variables';
+.resume-container{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+
+    .resume-item{
+        text-align: center;
+        span{
+            display: block;
+        }
+        .number{
+            font-size: 60px;
+            font-weight: bold;
+        }
+        .letter{
+            text-transform:uppercase;
+        }
+        .Purple{
+            color: $purple;
+        }
+        .Blue{
+            color:$blue;
+        }
+        .Green{
+            color:$green;
+        }
+        .Yellow{
+            color:$yellow;
+        }
+        .Orange{
+            color:$orange;
+        }
+        .Red{
+            color:$red;
+        }
+        .Gray{
+            color:$gray;
+        }
+    }
+}
+
